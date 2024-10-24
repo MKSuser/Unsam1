@@ -41,6 +41,7 @@ Original file is located at
     # 'MJD':        'Modified Julian Datre****',
     # 'fiber_ID':       'Fiber ID'
 """
+![otraPantalla](https://github.com/algo1unsam/tp-game-s224-PlapGames/blob/main/Imagnes/pantalla.jpg) 
 
 # Cargamos las librerías con las que vamos a trabajar
 
