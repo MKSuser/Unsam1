@@ -72,9 +72,9 @@ def forward_prop(X):
     A2 = softmax(Z2)
     return Z1, A1, Z2, A2
 
-# Función para deteminar el accuracy ----- Ver como funciona argmax()
+# Función para deteminar el accuracy 
 def accuracy(X, Y):
-    test_predictions = forward_prop(X)[3]  # De acá le damos bola al valor que sale de A2
+    test_predictions = forward_prop(X)[3]  
     predicted_classes = np.argmax(test_predictions, axis=0)  # Obtener clase con mayor probabilidad
     true_classes = np.argmax(Y, axis=1)  # Etiquetas verdaderas
     accuracy = np.mean(predicted_classes == true_classes)  # Porcentaje de aciertos
